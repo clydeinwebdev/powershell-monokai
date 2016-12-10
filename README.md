@@ -12,3 +12,7 @@ Customized (PS) PowerShell Monokai Color Scheme
 	2      0      -1     -1
 
  	```
+
+##Other Links
+
+* [orangwarp](https://github.com/orangewarp/posh-monokai)
