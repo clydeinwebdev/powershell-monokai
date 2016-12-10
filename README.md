@@ -13,7 +13,10 @@ Customized (PS) PowerShell Monokai Color Scheme
 	2      0      -1     -1
 
  	```
-
+* Enable Powershell Scripts
+	```
+	> set-executionpolicy remotesigned
+	```
 
 ##Steps
 
@@ -41,8 +44,15 @@ Customized (PS) PowerShell Monokai Color Scheme
 	> .\install.ps1
 	> $PROFILE
 	```
+1. Call ```posh-monokai.ps1``` from your PowerShell Profile Script
+
+##Screenshots
+![screenshot01](https://camo.githubusercontent.com/bd9900a3789f4d8193ab128782cfbf952da19084/68747470733a2f2f7261772e6769746875622e636f6d2f6e7477622f706f73682d6d6f6e6f6b61692f6d61737465722f706f73682d6d6f6e6f6b61692e706e67)
 
 ##Other Links
 * [orangwarp](https://github.com/orangewarp/posh-monokai)
 * [dahlbyk](https://github.com/dahlbyk/posh-git)
 * [ntwb](https://github.com/ntwb/dotfiles)
+
+##Related Issues
+* [Script Inconsistencies](https://github.com/ntwb/posh-monokai/issues/1)
