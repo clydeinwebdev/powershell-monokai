@@ -4,7 +4,7 @@ Customized (PS) PowerShell Monokai Color Scheme
 ##Requirements
 
 * Powershell 2
- * ```
+	```
  	> $PSVersionTable.PSVersion
 	
 	Major  Minor  Build  Revision
@@ -14,5 +14,4 @@ Customized (PS) PowerShell Monokai Color Scheme
  	```
 
 ##Other Links
-
 * [orangwarp](https://github.com/orangewarp/posh-monokai)
