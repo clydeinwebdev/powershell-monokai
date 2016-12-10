@@ -32,7 +32,7 @@ Customized (PS) PowerShell Monokai Color Scheme
 	1. Type "regedit" in the "Search" box and press "Enter." Select "Regedit" from the list to open the program.
 	1. Click "File" on the menu bar and select "Import" from the drop-down menu.
 	1. Select the registry file you wish to merge with the existing registry and click "Open."
-	>>Note: Registry files may also be merged with the system registry by double-clicking the REG file.
+	1. Note: ```Registry files may also be merged with the system registry by double-clicking the REG file.```
 1. Merge ```register-console-font.reg```. This will register Open Type Fonts as a console font
 1. Install posh-git. Clone, change directory, install then refresh the powershell profile
 	```
