@@ -27,6 +27,13 @@ Customized (PS) PowerShell Monokai Color Scheme
 	1. Select the fonts you want to install. You can click to select one font, Control-click to select several fonts, or Shift-click to select a contiguous group of fonts.
 	1. Right-click the selected fonts and choose "Install."
 	1. The fonts are now installed and will appear in the font menus of your applications.
+1. Merge ```HKCU-Console.reg```. This will register Monokai colours for Powershell
+	1. Click the "Start" menu.
+	1. Type "regedit" in the "Search" box and press "Enter." Select "Regedit" from the list to open the program.
+	1. Click "File" on the menu bar and select "Import" from the drop-down menu.
+	1. Select the registry file you wish to merge with the existing registry and click "Open."
+	>>Note: Registry files may also be merged with the system registry by double-clicking the REG file.
+1. Merge ```register-console-font.reg```. This will register Open Type Fonts as a console font
 1. Install posh-git. Clone, change directory, install then refresh the powershell profile
 	```
 	> git clone https://github.com/dahlbyk/posh-git.git
